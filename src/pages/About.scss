@@ -1,0 +1,41 @@
+@import '../index.scss';
+
+.about-section{
+    border-radius: .4rem;
+    background: $secondary-color3;
+    margin: 3rem 0 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+.about-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-image{
+    width: 60%;
+    overflow: hidden;
+}
+
+.about-image img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.about-image img[alt="about-img"] {
+    animation: right-mover 1s ease-in-out infinite alternate;
+  }
+// .about-btn{
+//     width: 20%;
+//     padding: .5rem 2rem .5rem 2rem;
+//     background: $secondary-color;
+//     border: none;
+//     color: white;
+//     border-radius: 1rem;
+// }

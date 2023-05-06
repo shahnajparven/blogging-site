@@ -1,0 +1,17 @@
+@import '../index.scss';
+
+.banner{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/blog-images/banner1.jpg);
+  background-repeat: no-repeat;
+      height: 60vh;
+      width: 100%;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+ 
+}
+// .hero-img{
+//   overflow: hidden;
+//   height: 100%;
+//   width: 100%;
+// }

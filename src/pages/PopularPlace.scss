@@ -1,0 +1,103 @@
+@import '../index.scss';
+.popular-section{
+  margin: 5rem 0 5rem 0;
+}
+.popular-place-container{
+  display: flex;
+  gap: 5rem;
+  width: 100%;
+}
+.popular-place-left{
+  width: 100%;
+}
+.popular-place-left p{
+ font-size: 20px;
+ line-height: 30px;
+}
+.popular-place-right{
+  width: 100%; 
+}
+.grid-container{
+  display: grid;
+ width: 100%;
+}
+.grid-item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+  //background-color: red;
+}
+.grid-item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  //background-color: red;
+}
+.grid-item1 img {
+  width: 100%;
+  //height: 100%;
+}
+.grid-item2 img {
+  width: 100%;
+  //height: 100%;
+}
+.grids{
+  height: 100%;
+  width: 100%;
+}
+.grids1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  overflow: hidden;
+ }
+ .grids1 img{
+  width: 100%;
+ }
+ .grids2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35vh;
+  overflow: hidden;
+ }
+ .grids2 img{
+  width: 100%;
+ }
+ .grids3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35vh;
+  overflow: hidden;
+ }
+ .grids3 img{
+  width: 100%;
+ }
+ .grids4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  overflow: hidden;
+ }
+ .grids4 img{
+  width: 100%;
+ }
+
+.hr-line{
+  height: 5px;
+  width: 31%;
+  background: $secondary-color;
+}

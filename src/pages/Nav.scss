@@ -1,0 +1,37 @@
+@import '../index.scss';
+
+.navbar{
+    background: $primary-color;
+  }
+  .nav{
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+.logo{
+    color:$secondary-color;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .list-item ul{
+    display: flex;
+    list-style-type: none;
+    
+  }
+  .list-item li{
+    justify-content: space-between;
+    padding: 0 2rem 0 0;
+    color: white;
+  }
+  .list-item li a{
+   text-decoration: none;
+    color: white;
+  }
+  .login{
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  

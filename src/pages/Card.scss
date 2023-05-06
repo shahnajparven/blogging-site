@@ -1,0 +1,29 @@
+@import '../index.scss';
+
+.cards{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+//justify-content: space-around;
+}
+.card{
+    display: flex;
+    box-shadow: 2px 2px 8px 2px lightgray;
+    background: white;
+    margin: 2rem 0 0 0;
+    }
+.card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+    //background: $secondary-color2;
+}
+.card-img img{
+    width: 100%;
+} 
+.card-title{
+    padding: 0 2rem 0 2rem;
+}    
