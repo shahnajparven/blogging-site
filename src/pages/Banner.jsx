@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="banner">
       {/* <img className="hero-img" src={hero1} /> */}
-      hey
+     
     </div>
   );
 };
