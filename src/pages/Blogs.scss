@@ -4,19 +4,34 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 4%;
+    // margin-left: 4%;
 }
 .blogs{
-    width: 100%;
     display: flex;
-    line-height: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
 }
-.blog-cards1{
-    width: 70%;
+.blog-cards{
+    display: flex;
+    flex-direction: column;
+    //width: 100%;
 }
-.blog-cards2{
-    width: 30%;
+.main{
+    width: 160%;
 }
+// .blog-img{
+//     background-color: red;
+//     width: 70%;
+// }
+// .cardsss{
+//     background-color: yellow;
+//     width: 30%;
+// }
+// .blog-text{
+//     width: 100%;
+  
+// }
 .hr-line{
     height: 5px;
     width: 31%;

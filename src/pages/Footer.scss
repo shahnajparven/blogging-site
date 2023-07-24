@@ -1,0 +1,57 @@
+@import '../src/index.scss';
+
+.footer-section{
+    background: $primary-color;
+    padding: 2rem 0 2rem 0;
+    
+
+}
+.footer-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.footer-heading{
+   width: 30%;
+}
+.footer-title{
+    border-bottom: 2px solid $secondary-color;
+}
+.footer-title h3{
+    color: $secondary-color;
+   font-weight: bolder;
+    font-size: 25px;
+}
+.footer-heading p{
+    line-height: 1.3rem;
+    font-size: 16px;
+    color: #ffff;
+ }
+ .footer-title1,.footer-title2{
+   font-size: 18px;
+   color: #ffff;
+   padding-top: 3rem;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   gap: 8px;
+}
+.footer-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffff;
+}

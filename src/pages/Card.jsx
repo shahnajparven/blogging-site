@@ -3,7 +3,7 @@ import '../pages/Card.scss';
 
 export const Card = ({img,title,details}) => {
   return (
-    <div className="container">
+    // <div className="container">
       <div className="cards">
       <div className="card">
         <div className='card-img'>
@@ -15,6 +15,6 @@ export const Card = ({img,title,details}) => {
         </div>
 
     </div>
-    </div>
+    // </div>
   );
 };

@@ -1,0 +1,34 @@
+@import "../../index.scss";
+.gallery{
+  width: 100%;  
+}
+.containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ margin: 15px 5px 0 5px;
+
+}
+.containers .heading{
+    width: 20%;
+}
+.containers .heading h1{
+    padding-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+.containers .box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+//   align-items: center;
+  width: 100%;
+}
+.containers .box .dream {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}

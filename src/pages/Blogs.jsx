@@ -13,8 +13,9 @@ const Blogs = () => {
           <div className="hr-line" />
         </div>
         <div className="blogs">
-          <div className="blog-cards1">
-            <div>
+          <div className="blog-cards main">
+          
+            <div className="blog-card">
               <Card
                 img={img1}
                 title="Australia"
@@ -22,7 +23,7 @@ const Blogs = () => {
             identity, build your brand and promote your work to the community"
               />
             </div>
-            <div>
+            <div className="blog-card">
               <Card
                 img={img2}
                 title="Gua"
@@ -30,7 +31,7 @@ const Blogs = () => {
             identity, build your brand and promote your work to the community"
               />
             </div>
-            <div>
+            <div className="blog-card">
               <Card
                 img={img3}
                 title="France"
@@ -38,14 +39,14 @@ const Blogs = () => {
             identity, build your brand and promote your work to the community"
               />
             </div>
+            
           </div>
-
-          <div className="blog-cards2">
+          <div className="blog-cards">
             <h1>Tuyib mnbnb nb </h1>
             <p>
               Speak with your own voice! On our marketplaces you can maintain
               your identity, build your brand and promote your work to the
-              community
+              community.
             </p>
           </div>
         </div>
