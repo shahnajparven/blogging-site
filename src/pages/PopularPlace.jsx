@@ -23,6 +23,7 @@ const PopularPlace = () => {
             <p> Speak with your own voice! On our marketplaces you can maintain your
             identity, build your brand and promote your work to the community</p>
             <button className="about-btn">See More</button>
+            {/* <button className="about-btn">See More</button> */}
           </div>
         </div>
         <div className="popular-place-right">

@@ -1,25 +1,34 @@
-@import '../index.scss';
-.popular-section{
+@import "../index.scss";
+.popular-section {
   margin: 5rem 0 5rem 0;
 }
-.popular-place-container{
+.popular-place-container {
   display: flex;
   gap: 5rem;
   width: 100%;
 }
-.popular-place-left{
+.popular-place-left {
   width: 100%;
 }
-.popular-place-left p{
- font-size: 20px;
- line-height: 30px;
+.popular-place-left p {
+  font-size: 20px;
+  line-height: 30px;
 }
-.popular-place-right{
-  width: 100%; 
+.popular-place-right {
+  width: 100%;
 }
-.grid-container{
+.about-btn {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border: none;
+  color: white;
+  border-radius: 1rem;
+  background: $secondary-color;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+.grid-container {
   display: grid;
- width: 100%;
+  width: 100%;
 }
 .grid-item1 {
   display: flex;
@@ -47,56 +56,56 @@
   width: 100%;
   //height: 100%;
 }
-.grids{
+.grids {
   height: 100%;
   width: 100%;
 }
-.grids1{
+.grids1 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 25vh;
   overflow: hidden;
- }
- .grids1 img{
+}
+.grids1 img {
   width: 100%;
- }
- .grids2{
+}
+.grids2 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 35vh;
   overflow: hidden;
- }
- .grids2 img{
+}
+.grids2 img {
   width: 100%;
- }
- .grids3{
+}
+.grids3 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 35vh;
   overflow: hidden;
- }
- .grids3 img{
+}
+.grids3 img {
   width: 100%;
- }
- .grids4{
+}
+.grids4 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 25vh;
   overflow: hidden;
- }
- .grids4 img{
+}
+.grids4 img {
   width: 100%;
- }
+}
 
-.hr-line{
+.hr-line {
   height: 5px;
   width: 31%;
   background: $secondary-color;
