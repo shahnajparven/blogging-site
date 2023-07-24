@@ -14,7 +14,6 @@ const Blogs = () => {
         </div>
         <div className="blogs">
           <div className="blog-cards main">
-          
             <div className="blog-card">
               <Card
                 img={img1}
@@ -39,15 +38,35 @@ const Blogs = () => {
             identity, build your brand and promote your work to the community"
               />
             </div>
-            
           </div>
           <div className="blog-cards">
-            <h1>Tuyib mnbnb nb </h1>
+            <h1>Country Exploring rate </h1>
             <p>
               Speak with your own voice! On our marketplaces you can maintain
               your identity, build your brand and promote your work to the
               community.
             </p>
+            <div className="rating-box">
+            <div className="rating-bar">
+              <span className="skill-bar">
+                <span className="tooltip">90%</span>
+              </span>
+            </div>
+            </div>
+            <div className="rating-box">
+            <div className="rating-bar ">
+              <span className="skill-bar two">
+                <span className="tooltip">70%</span>
+              </span>
+            </div>
+            </div>
+            <div className="rating-box">
+            <div className="rating-bar ">
+              <span className="skill-bar three">
+                <span className="tooltip">30%</span>
+              </span>
+            </div>
+            </div>
           </div>
         </div>
       </div>

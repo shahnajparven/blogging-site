@@ -1,39 +1,95 @@
-@import '../src/index.scss';
+@import "../src/index.scss";
 
-.blog-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    // margin-left: 4%;
+.blog-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.blogs{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 3rem;
+.blogs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
 }
-.blog-cards{
-    display: flex;
-    flex-direction: column;
-    //width: 100%;
+.blog-cards {
+  display: flex;
+  flex-direction: column;
 }
-.main{
-    width: 160%;
+.main {
+  width: 160%;
 }
-// .blog-img{
-//     background-color: red;
-//     width: 70%;
-// }
-// .cardsss{
-//     background-color: yellow;
-//     width: 30%;
-// }
-// .blog-text{
-//     width: 100%;
-  
-// }
-.hr-line{
-    height: 5px;
-    width: 31%;
-    background: $secondary-color;
-  }
+
+.hr-line {
+  height: 5px;
+  width: 31%;
+  background: $secondary-color;
+  // background-color: blue;
+}
+
+/****************************rating bar*********************************/
+.rating-box{
+  margin-top: 3rem;
+
+}
+.rating-bar {
+  height: 8px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.rating-bar .skill-bar {
+  position: relative;
+  height: 100%;
+  width: 90%;
+  display: block;
+  border-radius: 6px;
+   background-color: $secondary-color;
+  // background-color: blue;
+  animation: progress 0.4s ease-in-out forwards;
+  opacity: 0;
+}
+// .rating-bar .skill-bar :hover {
+//   transform: scale(1.08); }
+
+.skill-bar.two{
+  width: 70%;
+}
+.skill-bar.three{
+  width: 30%;
+}
+
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+    100%{
+     
+        opacity: 1;
+    }
+}
+.skill-bar .tooltip {
+  position: absolute;
+  top: -31px;
+  right: -14px;
+  font-size: 12px;
+
+  padding: 5px;
+ background-color: $secondary-color; 
+  // background-color: blue;
+  border-radius: 6px;
+  color: white;
+  z-index: 1;
+}
+.tooltip::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  height: 10px;
+  width: 10px;
+  background-color: $secondary-color; 
+  // background-color: blue;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: -1;
+}
