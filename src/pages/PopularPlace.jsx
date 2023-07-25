@@ -34,12 +34,12 @@ const PopularPlace = () => {
           <div className="box">
           <div className="image-box">
             <div className="images">
-              <img src={img1} />
-              <img src={img5} />
+              <img className="effect" src={img1} />
+              <img className="effect" src={img5} />
             </div>
             <div className="images">
-              <img src={img4} />
-              <img src={img2} />
+              <img className="effect" src={img4} />
+              <img className="effect" src={img2} />
               
             </div>
             

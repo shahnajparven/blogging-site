@@ -3,6 +3,7 @@ import "./Blogs.scss";
 import img1 from "../assets/images/img1.jpg";
 import img2 from "../assets/images/img2.jpg";
 import img3 from "../assets/images/img3.jpg";
+import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
 
 const Blogs = () => {
   return (
@@ -38,7 +39,11 @@ const Blogs = () => {
             identity, build your brand and promote your work to the community"
               />
             </div>
+          <div className="blog-btn-box">
+          <button className="blog-btn"><ExpandMoreOutlinedIcon/></button>
           </div>
+          </div>
+         
           <div className="blog-cards">
             <h1>Country Exploring rate </h1>
             <p>

@@ -64,3 +64,9 @@
   width: 100%;
  
 }
+.effect{
+ transition: 0.3s;
+}
+.effect:hover{
+  transform: rotate(30deg);
+}
