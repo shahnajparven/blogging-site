@@ -1,4 +1,5 @@
 import "./Footer.scss";
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 
 export const Footer = () => {
   return (
@@ -40,7 +41,7 @@ export const Footer = () => {
             <p>Get Touch With Us....</p>
             </div>
             <div className="footer-logo">
-              <div className="social-icon">1</div>
+              <div className="social-icon"><FacebookOutlinedIcon/></div>
               <div className="social-icon">2</div>
               <div className="social-icon">3</div>
             </div>
