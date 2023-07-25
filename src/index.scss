@@ -19,17 +19,14 @@ body{
 
 //Media Query
 
-@media (max-width: 412px) {
-  .list-item ul{
-    display: none;
-  }
+// @media (max-width: 412px) {
+//   .list-item ul{
+//     display: none;
+//   }
   
  
-}
+// }
 @media (max-width: 576px) {
-  .list-item ul{
-    display: none;
-  }
   .popular-container .box .image-box{
     flex-direction: column;
   }
