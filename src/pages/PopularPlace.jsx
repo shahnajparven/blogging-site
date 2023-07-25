@@ -26,7 +26,9 @@ const PopularPlace = () => {
                 community
               </p>
               <button className="about-btn">See More</button>
+              <hr className="hr-line2"/>
             </div>
+           
           </div>
          
           <div className="box">
@@ -44,7 +46,9 @@ const PopularPlace = () => {
           </div>
           </div>
         </div>
+        
       </div>
+    
     </div>
   );
 };

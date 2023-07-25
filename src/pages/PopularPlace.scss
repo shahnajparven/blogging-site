@@ -48,7 +48,7 @@
 .popular-container .box .images {
   display: flex;
   flex-direction: column;
-  width: 49%;
+  width: 30%;
 }
 .popular-container .box .images img {
   width: 100%;
@@ -58,4 +58,9 @@
   height: 5px;
   width: 31%;
   background: $secondary-color;
+}
+.hr-line2 {
+  margin-top: 5rem;
+  width: 100%;
+ 
 }

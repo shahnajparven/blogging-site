@@ -4,6 +4,7 @@
   position: fixed;
   width: 100%;
     background: $primary-color;
+    z-index: 99;
   }
   .nav{
     padding: 1rem 0 1rem 0;

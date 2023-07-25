@@ -1,5 +1,7 @@
 import "./Footer.scss";
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export const Footer = () => {
   return (
@@ -42,8 +44,8 @@ export const Footer = () => {
             </div>
             <div className="footer-logo">
               <div className="social-icon"><FacebookOutlinedIcon/></div>
-              <div className="social-icon">2</div>
-              <div className="social-icon">3</div>
+              <div className="social-icon"><TwitterIcon/></div>
+              <div className="social-icon"><YouTubeIcon/></div>
             </div>
           </div>
         </div>

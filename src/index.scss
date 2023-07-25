@@ -53,6 +53,12 @@ body{
   padding: 0;
   width: 100%;
 }
+.footer-box{
+  flex-direction: column;
+}
+.footer-heading{
+  width: 100%;
+}
 }
 @media (max-width: 768px) {
   .blogs{
