@@ -2,7 +2,8 @@ import { useState } from "react";
 import "./Nav.scss";
 const Nav = () => {
   const [ menuShow, setMenuShow ] = useState(false);
-
+  const [ sow, setShow ] = useState(true);
+  
   return (
     <div className="navbar">
       <div className="container">
