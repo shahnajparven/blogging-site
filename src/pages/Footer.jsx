@@ -15,7 +15,7 @@ export const Footer = () => {
             <p>
               Speak with your own voice! On our marketplaces you can maintain
               your identity, build your brand and promote your work to the
-              community - however you like.
+              community, however you like.
             </p>
           </div>
           <div className="footer-heading">
