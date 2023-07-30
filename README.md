@@ -7,9 +7,7 @@
 - Reactjs
 - React Router
 - Redux Toolkit
-- React Hook Form + Yup
-- Material UI
-- Tailwind CSS + Daisyui (optional)
+- Scss
 
 ## Project setup for `Development`
 
@@ -25,7 +23,7 @@ sudo npm i -g yarn
 
 3. Install `Redux DevTools` extension on your browser. Here is the link for `chrome` <a href="https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd" target="_blank">Redux DevTools</a>.
 
-<!-- 4. Clone project on your local machine by running `git clone https://github.com/Solutya/air-travel-management-fe.git` -->
+4. Clone project on your local machine by running `git@github.com:shahnajparven/blogging-site.git`
 
 5. Go to the project directory `blogging-project` and run `yarn` then `yarn prepare`.
 
